@@ -1,23 +1,18 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 public class AI_Ray : MonoBehaviour {
 
-    private Transform Player;
+    [SerializeField] private Transform Player;
     private UnityEngine.AI.NavMeshAgent NMA;
 
 
 
-	void Start () {
-        Player = GameObject.FindGameObjectWithTag("Player").transform;
+	private void Start () {
         NMA = (UnityEngine.AI.NavMeshAgent)this.GetComponent("NavMeshAgent");
 	}
 	
 	
-	void Update () {
+	private void Update () {
         NMA.SetDestination(Player.position);
-
-    
-
 	}
 }
