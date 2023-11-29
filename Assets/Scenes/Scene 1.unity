@@ -1164,6 +1164,34 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!1 &929453778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -5415430821220795485, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
+  m_PrefabInstance: {fileID: 1293711216}
+  m_PrefabAsset: {fileID: 0}
+--- !u!136 &929453781
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 929453778}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.487051
+  m_Height: 1.8434741
+  m_Direction: 1
+  m_Center: {x: -0.029998839, y: 0.92084205, z: 0.320467}
 --- !u!81 &930740069
 AudioListener:
   m_ObjectHideFlags: 0
@@ -1988,7 +2016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 52.9
+      value: 52.804
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2018,9 +2046,25 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5415430821220795485, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 396820112205948169, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
       propertyPath: m_Name
       value: Mremireh O Desbiens@Zombie Running
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
+      propertyPath: m_TagString
+      value: Zombie
+      objectReference: {fileID: 0}
+    - target: {fileID: 1082271958561512970, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
+      propertyPath: m_TagString
+      value: Zombie
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2038,6 +2082,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1042303785}
+    - targetCorrespondingSourceObject: {fileID: -5415430821220795485, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 929453781}
   m_SourcePrefab: {fileID: 100100000, guid: b75fd871275ffc94785f68d7f4135785, type: 3}
 --- !u!1 &1302160508
 GameObject:
